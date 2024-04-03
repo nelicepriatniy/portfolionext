@@ -37,14 +37,14 @@ export default function Home() {
               <div className={s.Wraper}>
                 <AboutMeBlock />
                 <HistoryBlock />
-                {/* <KeysBlock /> */}
+                <KeysBlock />
                 <Sponsor dolg={dolg.ostDolg} />
               </div>
             </div>
           </div>
         </section>
         <div className={s.mainBg}></div>
-        {/* <MouseLight mouse={123} /> */}
+        <MouseLight mouse={123} />
         
       </main>
   );
