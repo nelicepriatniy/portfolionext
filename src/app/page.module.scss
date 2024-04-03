@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+
+.aboutMeBlock {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 150rem;
+
+}
+.Wraper {
+  width: 756rem;
+
+}
+
+.mainBg {
+  width: 800rem;
+  height: 800rem;
+  position: fixed;
+  top: 200rem;
+  left: -300rem;
+  border-radius: 50%;
+  width: 764rem;
+  height: 764rem;
+  filter: blur(150rem);
+  background: rgba(12, 24, 69, 0.5);
+  opacity: .2;
+  z-index: 1;
+}
+
+@media(max-width: 1000px) {
+
+  .aboutMeBlock {
+    margin-top: 20rem;
+    margin-bottom: 40rem;
+  
+  }
+  .Wraper {
+    width: 100%;
+  
+  }
+  
+  .mainBg {
+  }
+
+}

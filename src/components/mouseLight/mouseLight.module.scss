@@ -1,0 +1,10 @@
+.mouseThing {
+  border-radius: 50%;
+  width: 500rem;
+  height: 500rem;
+  filter: blur(200rem);
+  background: #0A1640;
+  position: fixed;
+  opacity: .8;
+  transform: translate(-50%, -50%);
+}

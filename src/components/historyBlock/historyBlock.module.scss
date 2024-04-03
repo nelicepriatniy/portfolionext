@@ -1,0 +1,12 @@
+.historyWraper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40rem;
+  margin-bottom: 120rem;
+}
+
+@media(max-width: 1000px) {
+  .historyWraper {
+    margin-bottom: 40rem;
+  }
+}

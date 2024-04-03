@@ -1,0 +1,34 @@
+@import '../../app/variables.scss';
+
+.sponsorBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20rem;
+  margin-bottom: 120rem;
+}
+.sponsorText {
+  font-family: $lato;
+  font-weight: 275;
+  font-size: 20rem;
+  color: $text-white;
+  & span {
+    font-family: inherit;
+    font-weight: 500;
+  }
+
+}
+
+.dolg {
+  font-family: $lato;
+  font-weight: 275;
+  font-size: 24rem;
+  color: $text-white;
+  & span {
+    font-weight: 500;
+    font-family: inherit;
+  }
+  width: 100%;
+  margin-top: 50rem;
+  text-align: right;
+
+}

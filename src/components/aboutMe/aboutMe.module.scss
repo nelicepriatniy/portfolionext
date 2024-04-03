@@ -1,0 +1,70 @@
+@import '../../app/variables.scss';
+
+.aboutMeBlock {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120rem;
+}
+.Wraper {
+  width: 756rem;
+
+}
+.text {
+  font-family: $lato;
+  font-weight: 275;
+  font-size: 24rem;
+  color: $text-white;
+  margin-bottom: 30rem;
+  & span {
+    font-weight: 500;
+  }
+}
+.listHeading {
+  font-family: $lato;
+  font-weight: 275;
+  font-size: 24rem;
+  color: $text-white;
+  margin-bottom: 10rem;
+
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+
+}
+.listItem {
+  font-family: $lato;
+  font-weight: 275;
+  font-size: 24rem;
+  color: $text-white;
+
+}
+
+@media (max-width: 1024px) {
+  .aboutMeBlock {
+    margin-bottom: 40rem;
+  }
+  .Wraper {
+    width: 100%;
+  
+  }
+  .text {
+    font-size: 14rem;
+    & span {
+    }
+  }
+  .listHeading {
+    font-size: 16rem;
+  }
+  .list {
+  
+  }
+  .listItem {
+    font-size: 14rem;
+  
+  }
+
+}

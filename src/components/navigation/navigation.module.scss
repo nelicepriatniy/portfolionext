@@ -1,0 +1,41 @@
+@import '../../app/variables.scss';
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30rem;
+  
+}
+.item {
+  font-family: $lato;
+  font-weight: 300;
+  font-size: 16rem;
+  text-transform: uppercase;
+  color: $text-gray;
+  display: flex;
+  align-items: center;
+  transition:  all .4s ease;
+  column-gap: 10rem;
+  line-height: 100%;
+  &.active {
+    color: $text-white;
+    &::before {
+      width: 80rem;
+      background: $text-white;
+    }
+  }
+  &::before {
+    content: '';
+    display: block;
+    width: 50rem;
+    height: 2rem;
+    background: $text-gray;
+    transition:  all .4s ease;
+  }
+}
+
+@media(max-width: 1000px) {
+  .nav {
+    display: none;
+  }
+}

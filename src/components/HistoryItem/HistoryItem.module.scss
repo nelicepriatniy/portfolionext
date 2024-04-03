@@ -1,0 +1,58 @@
+@import '../../app/variables.scss';
+
+.item {
+  display: flex;
+}
+.year {
+  font-family: $lato;
+  font-weight: 275;
+  font-size: 24rem;
+  color: $text-white;
+  width: 120rem;
+  margin-right: 17rem;
+
+}
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  width: 618rem;
+}
+.heading {
+  font-family: $lato;
+  font-weight: 500;
+  font-size: 24rem;
+  color: $text-white;
+  margin-bottom: 15rem;
+}
+.text {
+  font-family: $lato;
+  font-weight: 275;
+  font-size: 24rem;
+  color: $text-white;
+
+}
+
+@media (max-width: 1000px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  .year {
+    font-size: 14rem;
+    width: 67rem;
+    flex-shrink: 0;
+    margin-right: 5rem;
+    margin-bottom: 10rem;
+  }
+  .itemInfo {
+    width: 100%;
+  }
+  .heading {
+    font-size: 16rem;
+    margin-bottom: 5rem;
+  }
+  .text {
+    font-size: 14rem;
+  }
+
+}

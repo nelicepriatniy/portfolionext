@@ -1,95 +1,52 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import s from "./page.module.scss";
+import Link from "next/link";
+import Navigation from "@/components/navigation/navigation";
+import FrontBlock from "@/components/frontBlock/frontBlock";
+import AboutMeBlock from "@/components/aboutMe/aboutMe";
+import HistoryBlock from "@/components/historyBlock/historyBlock";
+import KeysBlock from "@/components/keysBlock/keysBlock";
+import MouseLight from '@/components/mouseLight/mouseLight'
+import Sponsor from '@/components/sponsor/sponsor'
+
+let dolg = {
+  obsh: 25000,
+  otdal: [
+    120, //пожертвовал на хостинг
+  ],
+  ostDolg: 0,
+}
+
+dolg.ostDolg = dolg.obsh
+
+for(let i = 0; dolg.otdal.length > i; i++) {
+  dolg.ostDolg = dolg.ostDolg - dolg.otdal[i];
+}
+
+let skillList = ['- HTML', '- CSS (LASS, SASS, SCSS)', '- JavaScript (TypeScript)', '- React (Next.js)', '- Redux']
+
+
 
 export default function Home() {
+  // console.log(ApiThing)
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <main>
+        <section className={s.frontBlock}>
+          <div className={s.container + ' container'}>
+            <FrontBlock />
+            <div className={s.aboutMeBlock}>
+              <div className={s.Wraper}>
+                <AboutMeBlock list={skillList} />
+                <HistoryBlock />
+                <KeysBlock />
+                <Sponsor dolg={dolg.ostDolg} />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div className={s.mainBg}></div>
+        <MouseLight mouse={123} />
+        
+      </main>
   );
 }
