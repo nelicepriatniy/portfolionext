@@ -12,7 +12,7 @@ function FrontBlock() {
       <h2 className={s.heading}>ВЯЧЕСЛАВ ПОЛЯКОВ</h2>
       <h1 className={s.subHeading}>Senior Frontend Engineer</h1>
       <p className={s.text}>Я создаю безупречный в пикселях, привлекательный и доступный опыт сотрудничества с разработчиком</p>
-      {/* <Navigation /> */}
+      <Navigation />
       <div className={s.sety}>
         <Link href={'https://t.me/Nelicepriatni'} target='_blank' className={s.setiHref}>
           <Image src={telegramIcon} alt={'telegram icon'} width={35} height={35} className={s.setySvg} />
