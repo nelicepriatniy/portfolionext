@@ -30,7 +30,7 @@ export default function Home() {
   // console.log(ApiThing)
   return (
       <main>
-        {/* <section className={s.frontBlock}>
+        <section className={s.frontBlock}>
           <div className={s.container + ' container'}>
             <FrontBlock />
             <div className={s.aboutMeBlock}>
@@ -44,8 +44,8 @@ export default function Home() {
           </div>
         </section>
         <div className={s.mainBg}></div>
-        <MouseLight mouse={123} />
-         */}
+        {/* <MouseLight mouse={123} /> */}
+        
       </main>
   );
 }
