@@ -22,12 +22,30 @@ export const keys = [
     text: 'Сайт международного стартапа бизнес чата',
     href: 'https://eclipse.club',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'React',
-      'Next',
-      'Redux'
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'React'
+      },
+      {
+        id: 15,
+        name: 'Next'
+      },
+      {
+        id: 16,
+        name: 'Redux'
+      },
     ]
   },
   {
@@ -37,10 +55,22 @@ export const keys = [
     text: 'Промо сайт для Крупнейшего коммерческого центра обработки данных в Эстонии',
     href: 'https://promo.infonetdc.com',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -50,10 +80,22 @@ export const keys = [
     text: 'Полноценный многостраничный сайт компании, создающей промо ролики для известных фильмов',
     href: 'https://insightmoscow.ru',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -63,10 +105,22 @@ export const keys = [
     text: 'Сайт с анимацией слайдера для компании, продающей премиальную косметику',
     href: 'https://pforganic.ru',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -76,10 +130,22 @@ export const keys = [
     text: 'Сайт для компании, занимающейся созданием веб приложений, сайтов и др.',
     href: 'https://sdstudio.pro',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -89,10 +155,22 @@ export const keys = [
     text: 'Крупный сайт для компании электрооборудования "ПрофЭнергия"',
     href: 'https://energiatrend.ru',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -102,10 +180,22 @@ export const keys = [
     text: 'Крупный сайт для ремонтной комании из питербугра',
     href: 'https://anatomy-remonta.ru',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -115,10 +205,22 @@ export const keys = [
     text: 'сайт для паспортно-визового центра, работающего по всей россии',
     href: 'https://pvc-arbat.ru/',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -128,10 +230,22 @@ export const keys = [
     text: 'Сайт международной компании по созданию протезов',
     href: 'https://esmee.io/',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -141,10 +255,22 @@ export const keys = [
     text: 'Проект для компании по созданию модульных домов',
     href: 'https://scandimodule.com',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -154,10 +280,22 @@ export const keys = [
     text: 'Сайт для компании по импорту машин в Россию из всего мира',
     href: 'https://avtoimport21.ru',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -167,13 +305,26 @@ export const keys = [
     text: 'Сайт портфолио для веб разработчика',
     href: '/',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
-      'React',
-      'Next',
-      'Redux'
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'React'
+      },
+      {
+        id: 15,
+        name: 'Next'
+      },
     ]
   },
   {
@@ -183,11 +334,22 @@ export const keys = [
     text: 'Проект для компании по импорту автомобилей из Германии',
     href: 'https://av-zapad.ru',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
-      'React',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
   {
@@ -197,10 +359,22 @@ export const keys = [
     text: 'сайт для паспортно-визового центра, работающего по всей россии',
     href: 'https://https://pvc-tourist.ru',
     skillList: [
-      'HTML',
-      'CSS',
-      'Js',
-      'Wordpress',
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
     ]
   },
 ]

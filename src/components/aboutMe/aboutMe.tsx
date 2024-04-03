@@ -1,4 +1,26 @@
 import s from './aboutMe.module.scss'
+let skillList = [
+  {
+    id: 0,
+    text: '- HTML',
+  },
+  {
+    id: 1,
+    text: '- CSS (LASS, SASS, SCSS)',
+  },
+  {
+    id: 2,
+    text: '- JavaScript (TypeScript)',
+  },
+  {
+    id: 3,
+    text: '- React (Next.js)',
+  },
+  {
+    id: 4,
+    text: '- Redux',
+  },
+]
 
 function AboutMeBlock(props:any) {
   return ( 
@@ -12,8 +34,8 @@ function AboutMeBlock(props:any) {
         </p>
         <p className={s.listHeading}>Мои основные компетенции включают в себя:</p>
         <ul className={s.list}>
-          {props.list.map((el:any) => 
-            <li key={el.index} className={s.listItem}>{el}</li>
+          {skillList.map((el:any) => 
+            <li className={s.listItem} key={el.id}>{el.text}</li>
           )}
         </ul>
     </div>

@@ -17,8 +17,8 @@ function KeysItem(props: any) {
         </div>
         <h3 className={s.text}>{props.text}</h3>
         <div className={s.skillList}>
-          {props.skillList.map((el: any) =>
-            <div key={el.index} className={s.skillItem}>{el}</div>
+          {props.skillList.map((el:any) =>
+            <div key={el.id} className={s.skillItem}>{el.name}</div>
           )}
         </div>
       </div>

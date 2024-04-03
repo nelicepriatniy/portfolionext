@@ -23,7 +23,6 @@ for(let i = 0; dolg.otdal.length > i; i++) {
   dolg.ostDolg = dolg.ostDolg - dolg.otdal[i];
 }
 
-let skillList = ['- HTML', '- CSS (LASS, SASS, SCSS)', '- JavaScript (TypeScript)', '- React (Next.js)', '- Redux']
 
 
 
@@ -36,7 +35,7 @@ export default function Home() {
             <FrontBlock />
             <div className={s.aboutMeBlock}>
               <div className={s.Wraper}>
-                <AboutMeBlock list={skillList} />
+                <AboutMeBlock />
                 <HistoryBlock />
                 <KeysBlock />
                 <Sponsor dolg={dolg.ostDolg} />
