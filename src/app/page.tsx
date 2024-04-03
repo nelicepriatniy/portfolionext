@@ -35,10 +35,10 @@ export default function Home() {
             <FrontBlock />
             <div className={s.aboutMeBlock}>
               <div className={s.Wraper}>
-                <AboutMeBlock />
+                {/* <AboutMeBlock />
                 <HistoryBlock />
                 <KeysBlock />
-                <Sponsor dolg={dolg.ostDolg} />
+                <Sponsor dolg={dolg.ostDolg} /> */}
               </div>
             </div>
           </div>
