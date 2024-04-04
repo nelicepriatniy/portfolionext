@@ -5,6 +5,7 @@ import Image from 'next/image';
 import telegramIcon from '../../../public/icons/telegram.svg'
 import vkIcon from '../../../public/icons/vk.svg'
 import whatsappIcon from '../../../public/icons/whatsapp.svg'
+import FrontForm from '../frontForm/frontForm';
 
 function FrontBlock() {
   return (

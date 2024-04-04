@@ -42,7 +42,7 @@ async function getData() {
     // throw new Error('Failed to fetch data')
     console.log('something Wrong')
   }
-  console.log(res)
+  // console.log(res)
   return res.json()
 }
 
