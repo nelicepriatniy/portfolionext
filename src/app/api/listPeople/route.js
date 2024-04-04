@@ -1,8 +1,13 @@
 import { NextResponse, NextRequest } from 'next/server'
-import { listPeople } from './data/listPeople'
+
+import { promises as fs } from 'fs';
+
+
+const listPeople = await fs.readFile(process.cwd() + '/src/app/api/listPeople/data/listPeople.json', 'utf-8');
+const listData = JSON.parse(listPeople);
 
 export async function GET() {
-  return NextResponse.json(listPeople);
+  return NextResponse.json(listData);
 
 }
 
@@ -14,6 +19,8 @@ export async function POST(res, req) {
     phone: data.phone,
     isisCheck: false,
   }
-  listPeople.push(newPeoplw)
-  return Response.json(listPeople);
+  listData.push(newPeoplw)
+  await fs.writeFile(process.cwd() + '/src/app/api/listPeople/data/listPeople.json', JSON.stringify(listData))
+  console.log(listData)
+  return Response.json(listData);
 }

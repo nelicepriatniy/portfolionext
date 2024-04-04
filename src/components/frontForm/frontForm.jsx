@@ -19,7 +19,7 @@ let FrontForm = ()=>{
 
     const submitForm = async ()=>{
         if(nameValue != '' && phoneValue != '') {
-            const res = await fetch('https://wwwyacheslav.netlify.app/api/listPeople',
+            const res = await fetch('http://localhost:3000/api/listPeople',
             {
                 method: 'POST',
                 body: JSON.stringify({
@@ -31,13 +31,9 @@ let FrontForm = ()=>{
                 }
             }
             )
-            const data = await res.json()
-            console.log(data)
             setNameValue('');
             setPhoneValue('');
             alert('Ваша заявка успешно отправлена')
-            // nameValue = ''
-            // phoneValue = ''
 
         } else {
             alert('заполните все поля')
