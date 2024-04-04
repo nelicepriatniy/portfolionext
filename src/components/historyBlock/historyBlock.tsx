@@ -36,7 +36,7 @@ const historyItems = [
 
 
 async function getData() {
-  const res = await fetch('http://localhost:3000/api/histoy')
+  const res = await fetch('http://https://wwwyacheslav.netlify.app/api/histoy')
  
   if (!res.ok) {
     // throw new Error('Failed to fetch data')
