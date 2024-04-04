@@ -35,19 +35,8 @@ const historyItems = [
 ]
 
 
-// async function getData() {
-//   const res = await fetch('https://wwwyacheslav.netlify.app/api/histoy')
- 
-//   if (!res.ok) {
-//     // throw new Error('Failed to fetch data')
-//     console.log('something Wrong')
-//   }
-//   // console.log(res)
-//   return res.json()
-// }
 
 export default async function HistoryBlock() {
-  // let historyList = await getData();
   return ( 
     <>
     <div className={s.historyWraper}>
@@ -56,5 +45,3 @@ export default async function HistoryBlock() {
     </>
    );
 }
-
-// export default HistoryBlock;
