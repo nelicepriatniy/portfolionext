@@ -1,0 +1,39 @@
+@import '../../app/variables.scss';
+
+.container {
+    display: flex;
+    column-gap: 50rem;
+    border-bottom: 2rem solid $text-white;
+    padding: 20rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemHeading {
+    font-family: $lato;
+    font-weight: 600;
+    font-size: 24rem;
+    color: $text-white;
+    margin-bottom: 10rem;
+
+}
+.itemText {
+    font-family: $lato;
+    font-weight: 100;
+    font-size: 24rem;
+    color: $text-white;
+
+}
+
+.itemInfo {
+    display: flex;
+    column-gap: 50rem;
+}
+
+.indicator {
+    height: 100rem;
+    width: 50rem;
+    background: rgb(233, 233, 149);
+    &.cheched {
+        background: rgb(108, 152, 108);
+    }
+}
