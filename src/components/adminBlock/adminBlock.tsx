@@ -1,13 +1,8 @@
 import AdminItem from '../adminItem/adminItem';
 import s from './adminBlock.module.scss'
-const info = {
-    name: 'asdasd',
-    phone: '12312312',
-}
-
 
 async function getData() {
-    const res = await fetch('http://https://wwwyacheslav.netlify.app/api/listPeople')
+    const res = await fetch('http://localhost:3000/api/listPeople')
 
     if (!res.ok) {
         // throw new Error('Failed to fetch data')

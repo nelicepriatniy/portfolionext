@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, setState } from "react";
+import { useState} from "react";
 import s from './frontForm.module.scss'
 import React from "react";
 
@@ -19,7 +19,7 @@ let FrontForm = ()=>{
 
     const submitForm = async ()=>{
         if(nameValue != '' && phoneValue != '') {
-            const res = await fetch('http://https://wwwyacheslav.netlify.app/api/listPeople',
+            const res = await fetch('http://localhost:3000/api/listPeople',
             {
                 method: 'POST',
                 body: JSON.stringify({
