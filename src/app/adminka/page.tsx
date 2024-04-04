@@ -1,7 +1,6 @@
 import AdminBlock from '@/components/adminBlock/adminBlock';
 
-
-function AdminPage() {
+function AdminPage () {
     return ( 
         <div className='container'>
             <AdminBlock />

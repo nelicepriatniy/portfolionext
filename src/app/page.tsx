@@ -1,7 +1,4 @@
-import Image from "next/image";
 import s from "./page.module.scss";
-import Link from "next/link";
-import Navigation from "@/components/navigation/navigation";
 import FrontBlock from "@/components/frontBlock/frontBlock";
 import AboutMeBlock from "@/components/aboutMe/aboutMe";
 import HistoryBlock from "@/components/historyBlock/historyBlock";
