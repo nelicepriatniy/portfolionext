@@ -2,7 +2,7 @@ import AdminItem from '../adminItem/adminItem';
 import s from './adminBlock.module.scss'
 
 async function getData() {
-    const res = await fetch('http://localhost:3000/api/listPeople')
+    const res = await fetch('https://wwwyacheslav.netlify.app/api/listPeople')
 
     if (!res.ok) {
         // throw new Error('Failed to fetch data')

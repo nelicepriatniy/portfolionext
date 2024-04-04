@@ -19,7 +19,7 @@ let FrontForm = ()=>{
 
     const submitForm = async ()=>{
         if(nameValue != '' && phoneValue != '') {
-            const res = await fetch('http://localhost:3000/api/listPeople',
+            const res = await fetch('https://wwwyacheslav.netlify.app/api/listPeople',
             {
                 method: 'POST',
                 body: JSON.stringify({
