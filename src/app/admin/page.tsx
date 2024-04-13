@@ -1,5 +1,3 @@
-'use client'
-
 import s from "./page.module.scss";
 import FrontBlock from "@/components/frontBlock/frontBlockAdmin";
 import AboutMeBlock from "@/components/aboutMe/aboutMe";
@@ -35,7 +33,7 @@ async function getData() {
     return res.json()
 }
 
-export default async function Home() {
+export default async function Admin() {
     const texts = await getData();
     // function sendData () {
     //     getHeadingText('texts[0].frontPageHeading');
