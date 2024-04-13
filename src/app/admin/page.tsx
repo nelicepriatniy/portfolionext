@@ -6,7 +6,6 @@ import KeysBlock from "@/components/keysBlock/keysBlock";
 import MouseLight from '@/components/mouseLight/mouseLight'
 import Sponsor from '@/components/sponsor/sponsor'
 import AdminDone from '@/components/adminDone/adminDone'
-import { getHeadingText, getSubHeadingText, getTextText } from './../../components/adminDone/adminDone';
 
 let dolg = {
     obsh: 25000,
@@ -25,7 +24,7 @@ for (let i = 0; dolg.otdal.length > i; i++) {
 
 
 async function getData() {
-    const res = await fetch('https://wwwyacheslav.netlify.app/api/allText')
+    const res = await fetch('http://localhost:3000/api/allText')
 
     if (!res.ok) {
         console.log('something Wrong')
