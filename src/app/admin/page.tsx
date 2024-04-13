@@ -1,3 +1,5 @@
+'use client'
+
 import s from "./page.module.scss";
 import FrontBlock from "@/components/frontBlock/frontBlockAdmin";
 import AboutMeBlock from "@/components/aboutMe/aboutMe";
