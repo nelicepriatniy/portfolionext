@@ -24,7 +24,6 @@ for(let i = 0; dolg.otdal.length > i; i++) {
 
 
 export default function Home() {
-  // console.log(ApiThing)
   return (
       <main>
         <section className={s.frontBlock}>

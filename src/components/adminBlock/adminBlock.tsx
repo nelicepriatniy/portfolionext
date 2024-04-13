@@ -26,7 +26,6 @@ async function getDataIsAdmin() {
 
 export default async function AdminBlock() {
     let clientsList = await getData();
-    // console.log(ClientsList)
 
     async function isAdmin() {
         if (await getDataIsAdmin()) {

@@ -1,6 +1,7 @@
 import s from './adminItem.module.scss'
 
 
+
 function AdminItem(props: any) {
     let classes = [s.indicator].join(' ')
     if(props.info.isCheck) {

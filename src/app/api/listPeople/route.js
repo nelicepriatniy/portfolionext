@@ -20,6 +20,5 @@ export async function POST(res, req) {
   }
   listData.push(newPeoplw)
   await fs.writeFile(process.cwd() + '/src/app/api/listPeople/data/listPeople.json', JSON.stringify(listData))
-  console.log(listData)
   return Response.json(listData);
 }

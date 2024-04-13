@@ -15,6 +15,7 @@ async function getData() {
 
 export default async function KeysBlock() {
   let keysList = await getData();
+  
   return (
     <>
     <div className={s.keysBlock}>

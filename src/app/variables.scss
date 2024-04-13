@@ -1,11 +1,22 @@
 @font-face {
   font-family: 'Wadik';
-  src: url(../../public/fonts/Wadik.otf);
+  src: url('../../public/fonts/Wadik.otf');
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-$lato: "Montserrat", sans-serif;
+@font-face {
+  font-family: 'jeko';
+  src: url('../../public/fonts/JekoLight.ttf');
+  font-weight: 275;
+}
+@font-face {
+  font-family: 'jeko';
+  src: url('../../public/fonts/JekoMedium.ttf');
+  font-weight: 500;
+}
+
+$lato: "jeko", sans-serif;
 $wadik: 'Wadik', sans-serif;
 
 $text-white: #E0E0E0;

@@ -5,14 +5,25 @@ import Image from 'next/image';
 import telegramIcon from '../../../public/icons/telegram.svg'
 import vkIcon from '../../../public/icons/vk.svg'
 import whatsappIcon from '../../../public/icons/whatsapp.svg'
-import FrontForm from '../frontForm/frontForm';
 
-function FrontBlock() {
+
+async function getData() {
+  const res = await fetch('https://wwwyacheslav.netlify.app/api/allText')
+
+  if (!res.ok) {
+      console.log('something Wrong')
+  }
+
+  return res.json()
+}
+
+async function FrontBlock() {
+  const texts = await getData();
   return (
     <div className={s.frontPage}>
-      <h2 className={s.heading}>ВЯЧЕСЛАВ ПОЛЯКОВ</h2>
-      <h1 className={s.subHeading}>Senior Frontend Engineer</h1>
-      <p className={s.text}>Я создаю безупречный в пикселях, привлекательный и доступный опыт сотрудничества с разработчиком</p>
+      <h2 className={s.heading}>{texts[0].frontPageHeading}</h2>
+      <h1 className={s.subHeading}>{texts[0].frontPageSubHeading}</h1>
+      <p className={s.text}>{texts[0].frontPageText}</p>
       <Navigation />
       <div className={s.sety}>
         <Link href={'https://t.me/Nelicepriatni'} target='_blank' className={s.setiHref}>
