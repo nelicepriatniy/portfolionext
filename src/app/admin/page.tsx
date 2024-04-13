@@ -65,7 +65,7 @@
 // }
 
 
-export default async function admin() {
+export default async function Admin() {
     return (
         <>
         <p>this is admin</p>
