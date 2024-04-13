@@ -23,7 +23,7 @@ for(let i = 0; dolg.otdal.length > i; i++) {
 
 
 
-export default function Home() {
+export default function Page() {
   return (
       <main>
         <section className={s.frontBlock}>
