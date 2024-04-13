@@ -63,12 +63,3 @@
 //         </>
 //     );
 // }
-
-
-export default async function Admin() {
-    return (
-        <>
-        <p>this is admin</p>
-        </>
-    );
-}
