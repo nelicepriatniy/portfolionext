@@ -24,7 +24,7 @@
 
 
 // async function getData() {
-//     const res = await fetch('https://wwwyacheslav.netlify.app/api/allText')
+//     const res = await fetch('http://localhost:3000/api/allText')
 
 //     if (!res.ok) {
 //         console.log('something Wrong')
@@ -63,3 +63,12 @@
 //         </>
 //     );
 // }
+
+
+export default function Admin() {
+    return (
+        <>
+        <p>this is admin</p>
+        </>
+    );
+}
