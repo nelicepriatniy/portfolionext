@@ -1,3 +1,5 @@
+'use client'
+
 import s from "./page.module.scss";
 import FrontBlock from "@/components/frontBlock/frontBlockAdmin";
 import AboutMeBlock from "@/components/aboutMe/aboutMe";
@@ -24,7 +26,7 @@ for (let i = 0; dolg.otdal.length > i; i++) {
 
 
 async function getData() {
-    const res = await fetch('http://localhost:3000/api/allText')
+    const res = await fetch('https://wwwyacheslav.netlify.app/api/allText')
 
     if (!res.ok) {
         console.log('something Wrong')
