@@ -3,7 +3,7 @@ import s from './adminBlock.module.scss'
 import AdminLogin from '@/components/adminLogin/AdminLogin'
 
 async function getData() {
-    const res = await fetch('https://wwwyacheslav.netlify.app/api/listPeople')
+    const res = await fetch('http://localhost:3000/api/listPeople')
 
     if (!res.ok) {
         // throw new Error('Failed to fetch data')
@@ -13,7 +13,7 @@ async function getData() {
     return res.json()
 }
 async function getDataIsAdmin() {
-    const res = await fetch('https://wwwyacheslav.netlify.app/api/proffiles')
+    const res = await fetch('http://localhost:3000/api/proffiles')
 
     if (!res.ok) {
         // throw new Error('Failed to fetch data')

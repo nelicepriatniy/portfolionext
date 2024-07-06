@@ -14,7 +14,7 @@ import keys12 from '@/../public/keys/keys12.png'
 import keys13 from '@/../public/keys/keys13.png'
 import keys14 from '@/../public/keys/keys14.png'
 import keys15 from '@/../public/keys/keys15.png'
-import keys16 from '@/../public/keys/keys16.png'
+import keys16 from '@/../public/keys/keys165.png'
 
 export const keys = [
   {
@@ -358,7 +358,7 @@ export const keys = [
     id: 13,
     img: keys14,
     heading: 'Pvc-tourist',
-    text: 'Сайт для паспортно-визового центра, работающего по всей россии',
+    text: 'сайт для паспортно-визового центра, работающего по всей россии',
     href: 'https://https://pvc-tourist.ru',
     skillList: [
       {

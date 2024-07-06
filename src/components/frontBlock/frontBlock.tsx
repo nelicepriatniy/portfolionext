@@ -8,7 +8,7 @@ import whatsappIcon from '../../../public/icons/whatsapp.svg'
 
 
 // async function getData() {
-//   const res = await fetch('https://wwwyacheslav.netlify.app/api/allText')
+//   const res = await fetch('http://localhost:3000/api/allText')
 
 //   if (!res.ok) {
 //       console.log('something Wrong')
@@ -18,7 +18,7 @@ import whatsappIcon from '../../../public/icons/whatsapp.svg'
 // }
 
 async function getData() {
-  const res = await fetch('https://wwwyacheslav.netlify.app/api/allText', {
+  const res = await fetch('http://localhost:3000/api/allText', {
     headers: {
       'Cache-Control': 'no-cache'
     }
