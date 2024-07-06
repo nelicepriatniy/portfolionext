@@ -24,7 +24,7 @@ let skillList = [
 ]
 
 async function getData() {
-  const res = await fetch('http://localhost:3000/api/about')
+  const res = await fetch('https://wwwyacheslav.netlify.app/api/about')
  
   if (!res.ok) {
     console.log('something Wrong')
