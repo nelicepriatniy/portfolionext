@@ -13,6 +13,8 @@ import keys11 from '@/../public/keys/keys11.png'
 import keys12 from '@/../public/keys/keys12.png'
 import keys13 from '@/../public/keys/keys13.png'
 import keys14 from '@/../public/keys/keys14.png'
+import keys15 from '@/../public/keys/keys15.png'
+import keys16 from '@/../public/keys/keys16.png'
 
 export const keys = [
   {
@@ -356,8 +358,58 @@ export const keys = [
     id: 13,
     img: keys14,
     heading: 'Pvc-tourist',
-    text: 'сайт для паспортно-визового центра, работающего по всей россии',
+    text: 'Сайт для паспортно-визового центра, работающего по всей россии',
     href: 'https://https://pvc-tourist.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 14,
+    img: keys15,
+    heading: 'baumzindech',
+    text: 'Сайт компании, которая продаёт премиальную технику, чистым кодом без лишних библиотек реализована корзина, оплата картами и рассрочка, выбор пвз',
+    href: 'https://baumzindech.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 15,
+    img: keys16,
+    heading: 'maplex',
+    text: 'Выполнена разработка сайта для компании Юридического агенства маплекс',
+    href: 'https://map-lex.ru',
     skillList: [
       {
         id: 11,
