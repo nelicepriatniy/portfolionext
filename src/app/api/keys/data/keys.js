@@ -14,7 +14,7 @@ import keys12 from '@/../public/keys/keys12.png'
 import keys13 from '@/../public/keys/keys13.png'
 import keys14 from '@/../public/keys/keys14.png'
 import keys15 from '@/../public/keys/keys15.png'
-import keys16 from '@/../public/keys/keys165.png'
+import keys16 from '@/../public/keys/keys16.png'
 
 export const keys = [
   {
