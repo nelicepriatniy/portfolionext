@@ -13,7 +13,7 @@ let frontHeading = '',
 function AdminDone() {
     const router = useRouter()
     const sendAllTexts = async () =>{
-        const req = await fetch('http://localhost:3000/api/allText', {
+        const req = await fetch('https://wwwyacheslav.netlify.app/api/allText', {
             method: 'POST',
             body: JSON.stringify({
                 frontPageHeading: frontHeading,
