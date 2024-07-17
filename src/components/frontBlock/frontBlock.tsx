@@ -17,27 +17,27 @@ import whatsappIcon from '../../../public/icons/whatsapp.svg'
 //   return res.json()
 // }
 
-async function getData() {
-  const res = await fetch('https://wwwyacheslav.netlify.app/api/allText', {
-    headers: {
-      'Cache-Control': 'no-cache'
-    }
-  });
+// async function getData() {
+//   const res = await fetch('https://wwwyacheslav.netlify.app/api/allText', {
+//     headers: {
+//       'Cache-Control': 'no-cache'
+//     }
+//   });
 
-  if (!res.ok) {
-      console.log('something Wrong')
-  }
+//   if (!res.ok) {
+//       console.log('something Wrong')
+//   }
 
-  return res.json();
-}
+//   return res.json();
+// }
 
 async function FrontBlock() {
-  const texts = await getData();
+  // const texts = await getData();
   return (
     <div className={s.frontPage}>
-      <h2 className={s.heading}>{texts[0].frontPageHeading}</h2>
+      {/* <h2 className={s.heading}>{texts[0].frontPageHeading}</h2>
       <h1 className={s.subHeading}>{texts[0].frontPageSubHeading}</h1>
-      <p className={s.text}>{texts[0].frontPageText}</p>
+      <p className={s.text}>{texts[0].frontPageText}</p> */}
       <Navigation />
       <div className={s.sety}>
         <Link href={'https://t.me/Nelicepriatni'} target='_blank' className={s.setiHref}>

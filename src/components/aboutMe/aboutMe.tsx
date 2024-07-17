@@ -22,24 +22,12 @@ let skillList = [
     text: '- Redux',
   },
 ]
-
-async function getData() {
-  const res = await fetch('https://wwwyacheslav.netlify.app/api/about')
- 
-  if (!res.ok) {
-    console.log('something Wrong')
-  }
- 
-  return res.json()
-}
-
 async function AboutMeBlock(props: any) {
-  const dataText = await getData();
   return (
     <>
       <div className={s.aboutMeBlock}>
         <p className={s.text}>
-          {dataText[0].text}
+          В 2018 году я начал увлекаться разработкой небольших приложений. На тот момент первой серьезной задачей стала разработка самописной системы авторизации.
         </p>
         <p className={s.text}>
           После небольшого опыта в разработке на <span>Python</span>, я занялся созданием <span>веб интерфейсов</span>  и, начиная с <span>2019</span>,  года прождолжаю совершенствовать свои навыки веб-разработчика большими и уверенными шагами.
