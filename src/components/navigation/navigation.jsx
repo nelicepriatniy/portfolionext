@@ -50,9 +50,9 @@ class Navigation extends React.Component {
   render(){
     return (
       <nav className={s.nav}>
-        <li className={this.state.classesFirst}>Обо мне</li>
-        <li className={this.state.classesSecond}>Опыт</li>
-        <li className={this.state.classesThird}>Проекты</li>
+        <li className={this.state.classesFirst}>About me</li>
+        <li className={this.state.classesSecond}>Experience</li>
+        <li className={this.state.classesThird}>Projects</li>
       </nav>
     )
   }

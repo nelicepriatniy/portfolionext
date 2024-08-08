@@ -5,7 +5,7 @@ function Sponsor(props) {
     <>
     <div className={s.sponsorBlock}>
       <p className={s.sponsorText}>
-        Вы можете связаться со мной в <span>соц. сетях</span> , указанных на сайте, я отвечу в <span>течении 30 минут</span>  с пн. по пт. <span>с 12:00 до 00:00</span> по мск <br /><br />
+      You can contact me at <span>social.. the networks</span> listed on the site, I will respond in <span> within 30 minutes</span> from Mon. to Fri. <span>from 12:00 to 00:00</span> oscow time <br /><br />
       </p>
       <p className={s.dolg}>
         Санин долг = 

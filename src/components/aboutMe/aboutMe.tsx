@@ -27,12 +27,12 @@ async function AboutMeBlock(props: any) {
     <>
       <div className={s.aboutMeBlock}>
         <p className={s.text}>
-          В 2018 году я начал увлекаться разработкой небольших приложений. На тот момент первой серьезной задачей стала разработка самописной системы авторизации.
+        In 2018, I started getting involved in developing small applications. At that time, the first serious task was to develop a self-written authorization system.
         </p>
         <p className={s.text}>
-          После небольшого опыта в разработке на <span>Python</span>, я занялся созданием <span>веб интерфейсов</span>  и, начиная с <span>2019</span>,  года прождолжаю совершенствовать свои навыки веб-разработчика большими и уверенными шагами.
+        After a little experience in <span>Python</span> development, I started creating <span>web interfaces</span>an web interfaces starting from <span>2019</span>, I will wait a year to improve my web developer skills wint steps.
         </p>
-        <p className={s.listHeading}>Мои основные компетенции включают в себя:</p>
+        <p className={s.listHeading}>My core competencies include:</p>
         <ul className={s.list}>
           {skillList.map((el: any) =>
             <li className={s.listItem} key={el.id}>{el.text}</li>

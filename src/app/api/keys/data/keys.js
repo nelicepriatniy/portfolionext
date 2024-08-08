@@ -21,7 +21,7 @@ export const keys = [
     id: 0,
     img: keys9,
     heading: 'Eclipse',
-    text: 'Сайт международного стартапа бизнес чата',
+    text: 'The website of an international business chat startup',
     href: 'https://eclipse.club',
     skillList: [
       {
@@ -54,158 +54,8 @@ export const keys = [
     id: 1,
     img: keys1,
     heading: 'Promo Infonet DC',
-    text: 'Промо сайт для Крупнейшего коммерческого центра обработки данных в Эстонии',
+    text: 'Promo website for the Largest commercial data center in Estonia',
     href: 'https://promo.infonetdc.com',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 2,
-    img: keys2,
-    heading: 'Insight',
-    text: 'Полноценный многостраничный сайт компании, создающей промо ролики для известных фильмов',
-    href: 'https://insightmoscow.ru',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 3,
-    img: keys3,
-    heading: 'FenixC',
-    text: 'Сайт с анимацией слайдера для компании, продающей премиальную косметику',
-    href: 'https://pforganic.ru',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 4,
-    img: keys4,
-    heading: 'SDS',
-    text: 'Сайт для компании, занимающейся созданием веб приложений, сайтов и др.',
-    href: 'https://sdstudio.pro',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 5,
-    img: keys5,
-    heading: 'Profenergy',
-    text: 'Крупный сайт для компании электрооборудования "ПрофЭнергия"',
-    href: 'https://energiatrend.ru',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 6,
-    img: keys6,
-    heading: 'Анатомия ремонта',
-    text: 'Крупный сайт для ремонтной комании из питербугра',
-    href: 'https://anatomy-remonta.ru',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 7,
-    img: keys7,
-    heading: 'PVC Arbat',
-    text: 'сайт для паспортно-визового центра, работающего по всей россии',
-    href: 'https://pvc-arbat.ru/',
     skillList: [
       {
         id: 11,
@@ -229,58 +79,8 @@ export const keys = [
     id: 8,
     img: keys8,
     heading: 'Esmee',
-    text: 'Сайт международной компании по созданию протезов',
+    text: 'The website of the international company for the creation of prostheses',
     href: 'https://esmee.io/',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 9,
-    img: keys10,
-    heading: 'Scandi module',
-    text: 'Проект для компании по созданию модульных домов',
-    href: 'https://scandimodule.com',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 10,
-    img: keys11,
-    heading: 'Авто импорт',
-    text: 'Сайт для компании по импорту машин в Россию из всего мира',
-    href: 'https://avtoimport21.ru',
     skillList: [
       {
         id: 11,
@@ -304,7 +104,7 @@ export const keys = [
     id: 11,
     img: keys12,
     heading: 'WWWyacheslav',
-    text: 'Сайт портфолио для веб разработчика',
+    text: 'Portfolio website for a web developer',
     href: '/',
     skillList: [
       {
@@ -330,10 +130,210 @@ export const keys = [
     ]
   },
   {
+    id: 2,
+    img: keys2,
+    heading: 'Insight',
+    text: 'A full-fledged multi-page website of a company that creates promo videos for famous films',
+    href: 'https://insightmoscow.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 3,
+    img: keys3,
+    heading: 'FenixC',
+    text: 'A website with slider animation for a company selling premium cosmetics',
+    href: 'https://pforganic.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 4,
+    img: keys4,
+    heading: 'SDS',
+    text: 'A website for a company that creates web applications, websites, etc.',
+    href: 'https://sdstudio.pro',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 5,
+    img: keys5,
+    heading: 'Profenergy',
+    text: 'A large website for the ProfEnergia electrical equipment company"',
+    href: 'https://energiatrend.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 6,
+    img: keys6,
+    heading: 'Анатомия ремонта',
+    text: 'A large website for a repair company from Peterbugr',
+    href: 'https://anatomy-remonta.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 7,
+    img: keys7,
+    heading: 'PVC Arbat',
+    text: 'website for the passport and visa center operating throughout Russia',
+    href: 'https://pvc-arbat.ru/',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 9,
+    img: keys10,
+    heading: 'Scandi module',
+    text: 'A project for a company to create modular homes',
+    href: 'https://scandimodule.com',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
+    id: 10,
+    img: keys11,
+    heading: 'Авто импорт',
+    text: 'Website for a company importing cars to Russia from all over the world',
+    href: 'https://avtoimport21.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
+  {
     id: 12,
     img: keys13,
     heading: 'Av-zapad',
-    text: 'Проект для компании по импорту автомобилей из Германии',
+    text: 'A project for a car import company from Germany',
     href: 'https://av-zapad.ru',
     skillList: [
       {
@@ -358,7 +358,7 @@ export const keys = [
     id: 13,
     img: keys14,
     heading: 'Pvc-tourist',
-    text: 'сайт для паспортно-визового центра, работающего по всей россии',
+    text: 'website for the passport and visa center operating throughout Russia',
     href: 'https://https://pvc-tourist.ru',
     skillList: [
       {
@@ -383,7 +383,7 @@ export const keys = [
     id: 14,
     img: keys15,
     heading: 'baumzindech',
-    text: 'Сайт компании, которая продаёт премиальную технику, чистым кодом без лишних библиотек реализована корзина, оплата картами и рассрочка, выбор пвз',
+    text: 'The website of a company that sells premium equipment, a shopping cart is implemented in clean code without unnecessary libraries, payment by cards and installments, a choice of PVZ',
     href: 'https://baumzindech.ru',
     skillList: [
       {
@@ -408,7 +408,7 @@ export const keys = [
     id: 15,
     img: keys16,
     heading: 'maplex',
-    text: 'Выполнена разработка сайта для компании Юридического агенства маплекс',
+    text: 'The website has been developed for the company of the Maplex Law Agency',
     href: 'https://map-lex.ru',
     skillList: [
       {

@@ -35,8 +35,8 @@ async function FrontBlock() {
   // const texts = await getData();
   return (
     <div className={s.frontPage}>
-      <h2 className={s.heading}>ВЯЧЕСЛАВ ПОЛЯКОВ</h2>
-      <h1 className={s.subHeading}>Я создаю безупречный в пикселях, привлекательный и доступный опыт сотрудничества с разработчиком</h1>
+      <h2 className={s.heading}>Slava Polyakov</h2>
+      <h1 className={s.subHeading}>I create a pixel-perfect, engaging and accessible developer collaboration experience.</h1>
       <p className={s.text}>Senior Frontend Engineer</p>
       <Navigation />
       <div className={s.sety}>
