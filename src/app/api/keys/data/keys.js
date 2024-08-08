@@ -429,4 +429,29 @@ export const keys = [
       },
     ]
   },
+  {
+    id: 15,
+    img: keys16,
+    heading: 'maplex',
+    text: 'The website has been developed for the company of the Maplex Law Agency',
+    href: 'https://map-lex.ru',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+    ]
+  },
 ]

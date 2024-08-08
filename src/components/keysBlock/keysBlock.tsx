@@ -3,7 +3,7 @@ import KeysItem from '../keysItem/keysItem'
 
 
 async function getData() {
-  const res = await fetch('https://wwwyacheslav.netlify.app/api/keys') //wwwyacheslav.netlify.app
+  const res = await fetch('http://localhost:3000/api/keys') //wwwyacheslav.netlify.app
  
   if (!res.ok) {
     // throw new Error('Failed to fetch data')
