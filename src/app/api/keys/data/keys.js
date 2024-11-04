@@ -1,7 +1,6 @@
 
 import keys1 from '@/../public/keys/keys1.png'
 import keys2 from '@/../public/keys/keys2.png'
-import keys3 from '@/../public/keys/keys3.png'
 import keys4 from '@/../public/keys/keys4.png'
 import keys5 from '@/../public/keys/keys5.png'
 import keys6 from '@/../public/keys/keys6.png'
@@ -9,7 +8,6 @@ import keys7 from '@/../public/keys/keys7.png'
 import keys8 from '@/../public/keys/keys8.png'
 import keys9 from '@/../public/keys/keys9.png'
 import keys10 from '@/../public/keys/keys10.png'
-import keys11 from '@/../public/keys/keys11.png'
 import keys12 from '@/../public/keys/keys12.png'
 import keys13 from '@/../public/keys/keys13.png'
 import keys14 from '@/../public/keys/keys14.png'
@@ -185,31 +183,6 @@ export const keys = [
     ]
   },
   {
-    id: 3,
-    img: keys3,
-    heading: 'FenixC',
-    text: 'A website with slider animation for a company selling premium cosmetics',
-    href: 'https://pforganic.ru',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
     id: 4,
     img: keys4,
     heading: 'SDS',
@@ -315,31 +288,6 @@ export const keys = [
     heading: 'Scandi module',
     text: 'A project for a company to create modular homes',
     href: 'https://scandimodule.com',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 10,
-    img: keys11,
-    heading: 'Авто импорт',
-    text: 'Website for a company importing cars to Russia from all over the world',
-    href: 'https://avtoimport21.ru',
     skillList: [
       {
         id: 11,
