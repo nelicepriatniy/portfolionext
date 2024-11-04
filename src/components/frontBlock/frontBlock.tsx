@@ -7,30 +7,6 @@ import vkIcon from '../../../public/icons/vk.svg'
 import whatsappIcon from '../../../public/icons/whatsapp.svg'
 
 
-// async function getData() {
-//   const res = await fetch('https://wwwyacheslav.netlify.app/api/allText')
-
-//   if (!res.ok) {
-//       console.log('something Wrong')
-//   }
-
-//   return res.json()
-// }
-
-// async function getData() {
-//   const res = await fetch('https://wwwyacheslav.netlify.app/api/allText', {
-//     headers: {
-//       'Cache-Control': 'no-cache'
-//     }
-//   });
-
-//   if (!res.ok) {
-//       console.log('something Wrong')
-//   }
-
-//   return res.json();
-// }
-
 async function FrontBlock() {
   // const texts = await getData();
   return (

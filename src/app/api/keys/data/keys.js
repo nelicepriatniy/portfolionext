@@ -15,6 +15,7 @@ import keys13 from '@/../public/keys/keys13.png'
 import keys14 from '@/../public/keys/keys14.png'
 import keys15 from '@/../public/keys/keys15.png'
 import keys16 from '@/../public/keys/keys16.png'
+import keys17 from '@/../public/keys/17.png'
 
 export const keys = [
   {
@@ -101,11 +102,40 @@ export const keys = [
     ]
   },
   {
+    id: 17,
+    img: keys17,
+    heading: 'STIL PRINT',
+    text: 'The website for The leading digital printing company in Dubai that specializes in bespoke printing and packaging services to clients across the UAE',
+    href: 'https://esmee.io/',
+    skillList: [
+      {
+        id: 11,
+        name: 'HTML'
+      },
+      {
+        id: 12,
+        name: 'CSS'
+      },
+      {
+        id: 13,
+        name: 'Js'
+      },
+      {
+        id: 14,
+        name: 'Wordpress'
+      },
+      {
+        id: 14,
+        name: 'php'
+      },
+    ]
+  },
+  {
     id: 11,
     img: keys12,
     heading: 'WWWyacheslav',
     text: 'Portfolio website for a web developer',
-    href: '/',
+    href: 'https://stilprints.com/',
     skillList: [
       {
         id: 11,
@@ -385,31 +415,6 @@ export const keys = [
     heading: 'baumzindech',
     text: 'The website of a company that sells premium equipment, a shopping cart is implemented in clean code without unnecessary libraries, payment by cards and installments, a choice of PVZ',
     href: 'https://baumzindech.ru',
-    skillList: [
-      {
-        id: 11,
-        name: 'HTML'
-      },
-      {
-        id: 12,
-        name: 'CSS'
-      },
-      {
-        id: 13,
-        name: 'Js'
-      },
-      {
-        id: 14,
-        name: 'Wordpress'
-      },
-    ]
-  },
-  {
-    id: 15,
-    img: keys16,
-    heading: 'maplex',
-    text: 'The website has been developed for the company of the Maplex Law Agency',
-    href: 'https://map-lex.ru',
     skillList: [
       {
         id: 11,
