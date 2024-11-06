@@ -103,7 +103,7 @@ export const keys = [
     id: 17,
     img: keys17,
     heading: 'STIL PRINT',
-    text: 'The website for The leading digital printing company in Dubai that specializes in bespoke printing and packaging services to clients across the UAE',
+    text: 'Big website for The leading digital printing company in Dubai that specializes in bespoke printing and packaging services to clients across the UAE',
     href: 'https://stilprints.com',
     skillList: [
       {
